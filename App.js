@@ -73,6 +73,8 @@ export default function App() {
     </>
   );
 }
+
+
 const styles = StyleSheet.create({
   box: {flex: 1, paddingHorizontal: 20, paddingVertical: 9},
   header: {
