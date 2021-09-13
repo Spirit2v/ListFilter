@@ -38,7 +38,7 @@ export default function App() {
           <>
       <Text
       style={{color:'yellow'}}
-      >{data}
+      >
       </Text>  
           <Text
           style={{color:'black'}}
@@ -111,8 +111,8 @@ filteredData
           </View>
         </View>
         <View>
-          <Text>{data}</Text>
-          
+          {/* <Text>{data}</Text>
+           */}
       
           <FlatList data={filteredData} renderItem={renderItem} />
         </View>
