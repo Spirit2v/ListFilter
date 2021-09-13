@@ -101,14 +101,12 @@ filteredData
             style={{
               height: 71,
               backgroundColor: 'black',
-              width: 1.3,
-              marginHorizontal: 10,
+              width: 1,
+              marginHorizontal: 13,
             }}></View>
           <View style={{marginVertical: 12}}>
             <TouchableOpacity onPress={add}>
-            {/* <ion-icon name="add-outline"></ion-icon> */}
-            {/* <Ionicons name='pencil-outline' size={18} color='black'/> */}
-            <Ionicons name="add-outline" size={42} color='black' />
+              <Ionicons name="add-outline" size={22} color="black" />
             </TouchableOpacity>
           </View>
         </View>
