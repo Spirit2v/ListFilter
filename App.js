@@ -34,7 +34,8 @@ export default function App() {
             padding: 12,
             borderBottomWidth: 1,
           }}>
-          <Text style={{fontWeight: 'bold'}}>{data ?
+          <Text style={{fontWeight: 'bold',fontSize:
+         18 }}>{data ?
           <>
       <Text
       style={{color:'yellow'}}
